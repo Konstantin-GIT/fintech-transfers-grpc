@@ -22,7 +22,7 @@ services:
       POSTGRES_USER: SU
       POSTGRES_PASSWORD: PWD
     ports:
-      - "5437:5437"
+      - "5437:5432"
     networks:
       - backend
 networks:
